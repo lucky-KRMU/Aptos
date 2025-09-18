@@ -1,0 +1,15 @@
+[package]
+name = "TokenCreation"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyToken = "0x7f61a6a95aa567e98e5193fd300cf7508284f52157647d7d72514e1bca72c9a7"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
